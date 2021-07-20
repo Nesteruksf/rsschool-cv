@@ -7,15 +7,19 @@
 ### Contacts
 * *phone:* +375 44 713-88-69
 * *email:* nesteruksf@gmail.com
-*  *skype* nesteruksf
+* *skype* nesteruksf
 
 
 ### About me
 I love programming and solving complex problems. I never give up and I work hard.
 
+#### Programming languages
+1. HTML
+2. CSS
+3. JS
+4. Git / GitHUB
 
-### Exemple code
-
+### Example code
 ```
 function getMiddle(s)
 {
@@ -27,6 +31,15 @@ function getMiddle(s)
   }
 }
 ```
+
+### Completed courses
+ru.hexlet.io
+- HTML
+- CSS
+- JS
+https://learn.javascript.ru
+- JS
+__English:__ A1
 
 
 
