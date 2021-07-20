@@ -34,12 +34,12 @@ function getMiddle(s)
 
 ### Completed courses
 ru.hexlet.io
-- HTML
-- CSS
-- JS
-
+HTML
+CSS
+JS
+---
 https://learn.javascript.ru
-- JS
+JS
 
 
 ### __English:__ 
