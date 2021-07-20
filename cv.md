@@ -39,7 +39,10 @@ ru.hexlet.io
 - JS
 https://learn.javascript.ru
 - JS
-__English:__ A1
+
+
+### __English:__ 
+A1
 
 
 
