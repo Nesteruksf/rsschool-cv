@@ -33,21 +33,13 @@ function getMiddle(s)
 ```
 
 ### Completed courses
-ru.hexlet.io
-HTML
-CSS
-JS
----
-https://learn.javascript.ru
-JS
+1. ru.hexlet.io
+> HTML
+> CSS
+> JS
+2. https://learn.javascript.ru
+> JS
 
 
 ### __English:__ 
 A1
-
-
-
-
-
-
-
