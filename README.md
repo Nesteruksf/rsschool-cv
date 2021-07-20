@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nesteruksf.github.io/rsschool-cv/cv
