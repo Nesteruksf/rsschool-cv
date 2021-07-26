@@ -1,0 +1,29 @@
+h1 {
+    color: #479fda;
+}       
+h3 {
+    background-color: #71b5e2;
+    padding: 1% 3% 1% 3%;                      
+}     
+.myFoto {
+    width: 250px;
+}
+.resume {
+    /* text-align: left; */
+    margin: auto;
+    padding: 2% 5% 2% 5%;
+    width: 600px;
+    border: thick double #6dc5ff;
+    background-color: rgb(197, 233, 245);
+    font-family: Arial, Verdana, sans-serif
+}
+footer {
+    border-top: 1px solid #71b5e2;
+    /* padding: 2% 0% 2% 0%; */
+    text-align: left;
+    font-size: 14px;
+}
+.RSS {
+    width: 15%;
+    height: 15%;
+}
