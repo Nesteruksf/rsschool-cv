@@ -1,1 +1,1 @@
-https://nesteruksf.github.io/rsschool-cv/cv
+https://nesteruksf.github.io/rsschool-cv/
