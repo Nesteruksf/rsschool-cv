@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1 {
+            color: #479fda;
+        }       
+        h3 {
+            background-color: #71b5e2;
+            padding: 1% 3% 1% 3%;                      
+        }     
+        .myFoto {
+            width: 250px;
+        }
+        .resume {
+            /* text-align: left; */
+            margin: auto;
+            padding: 2% 5% 2% 5%;
+            width: 600px;
+            border: thick double #6dc5ff;
+            background-color: rgb(197, 233, 245);
+            font-family: Arial, Verdana, sans-serif
+        }
+        footer {
+            border-top: 1px solid #71b5e2;
+            /* padding: 2% 0% 2% 0%; */
+            text-align: left;
+            font-size: 14px;
+        }
+        .RSS {
+            width: 15%;
+            height: 15%;
+        }
+    </style>
+</head>
+  
+<body>
+    <div class="resume">
+        <header><h1>RESUME</h1></header>
+        <nav class="menu">
+            <ul>
+              <li><a href="#l_1">Contacts</a></li>
+              <li><a href="#l_2">About me</a></li>
+              <li><a href="#l_3">Programming languages</a></li>
+              <li><a href="#l_4">Example code</a></li>
+              <li><a href="#l_5">Completed courses</a></li>
+              <li><a href="#l_6">English</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Sergey Nesteruk</h2>
+    
+            <img class="myFoto" src="https://i.postimg.cc/7Yn1w894/my-foto.jpg" alt="Foto Sergey Nesteruk">
+            
+            <h3 id="l_1">Contacts</h3>
+            <ul>
+                <li><i>phone:</i> +375 44 713-88-69</li>
+                <li><i>email:</i> nesteruksf@gmail.com</li>
+                <li><i>skype:</i> nesteruksf</li>
+            </ul>
+
+            <h3 id="l_2">About me</h3>
+            <p>I love programming and solving complex problems. I never give up and I work hard.</p>
+    
+            <h3 id="l_3">Programming languages</h3>
+            <ol>
+                <li>HTML - HyperText Markup Language</li>
+                <li>CSS - Cascading Style Sheets </li>
+                <li>JS - JavaScript</li>
+                <li>Git/ GitHUB</li>
+            </ol>
+    
+            <article>
+                <h3 id="l_4">Example code</h3>                         
+                    <details>
+                        <summary>function getMiddle(s)</summary>
+                        <code>
+                        {
+                        <br>//Code goes here!
+                        <br>if (s.length % 2 == 0) {
+                        <br>return s[(s.length / 2) - 1] + s[(s.length / 2)];
+                        <br>} else {
+                        <br>return s[Math.floor(s.length / 2)];
+                        <br>}
+                        <br>}
+                        </code>                   
+                    </details>
+                    <details>
+                        <summary>function disemvowel(str)</summary>
+                        <code>
+                        {
+                        <br>    var arreyVowel = 'aeiouAEIOU';
+                        <br>    var strNew = '';
+                        <br>    var n = 0;
+                        <br>    var count = 0;
+                        <br>                          
+                        <br>        if (arreyVowel[i] != str[n]) {
+                        <br>          count = count + 1;
+                        <br>        } else strNew = strNew + '';
+                        <br>      } 
+                        <br>      if (count == arreyVowel.length) {
+                        <br>        strNew = strNew + str[n];
+                        <br>      }
+                        <br>        
+                        <br>      count = 0; 
+                        <br>      n++;
+                        <br>    }
+                        <br>    return strNew;
+                        <br>  }
+                        </code>                   
+                    </details>
+                    <details>
+                        <summary>function squareDigits (num)</summary>
+                        <code>
+                        {
+                        <br>    //may the code be with you
+                        <br>    var numString = num + '';
+                        <br>    var resultString = '';
+                        <br>  
+                        <br>    for (var key in numString) {
+                        <br>      resultString = resultString + numString[key]**2;
+                        <br>    } 
+                        <br>    return +resultString;
+                        <br>  }
+                        </code>                   
+                    </details>                          
+            </article>
+
+            <h3 id="l_5">Completed courses</h3>
+            <ol>
+                <li>hexlet.io
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </li>
+                <li>learn.javascript.ru
+                    <ul>
+                        <li>JS</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3 id="l_6">English</h3>
+            <p>A1</p>
+
+        </main>
+        <footer>
+            <p>© <time datetime="2021-07-23 18:00">2021 - </time>GitHub: <a href="https://github.com/Nesteruksf" target="_blank">Nesteruksf</a></p>
+            <a href="https://rs.school/js/" target="_blank">
+            <img class="RSS" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scope School">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
